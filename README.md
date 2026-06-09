@@ -71,7 +71,7 @@ TPGN_MAKER_GS/
 | 2x micro servo SG90 9g | Movimento do braco e abertura/fechamento da garra |
 | LED | Indicador de garra fechada |
 | Resistor 220 ohm | Limitacao de corrente do LED |
-| Fonte externa 5 V ou 6 V | Alimentacao recomendada para os servos |
+| Fonte externa 5 V  | Alimentacao recomendada para os servos |
 | Protoboard e jumpers | Conexoes eletricas |
 
 Importante: para montagem fisica, os servos devem ser alimentados por fonte externa de 5 V ou 6 V, mantendo GND comum com o Arduino. Evite alimentar os servos diretamente pelo pino 5V do Arduino.
@@ -117,7 +117,7 @@ Comportamento do LED:
 
 - LED aceso: garra fechada, representando amostra capturada.
 - LED apagado: garra aberta.
-- Comandos invalidos sao informados no Monitor Serial.
+- Comandos invalidos são informados no Monitor Serial.
 
 ## Modelos 3D
 
