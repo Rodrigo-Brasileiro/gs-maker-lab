@@ -143,7 +143,7 @@ A garra usa um mecanismo de engrenagens gemeas. Um servo aciona o dedo motor, en
 
 O arquivo `braco_robotico.scad` reutiliza os modulos de `garra.scad` e adiciona:
 
-- Base do braco.
+- Base do braço.
 - Suporte do ombro.
 - Elo principal.
 - Acoplamento da garra ao punho.
@@ -155,7 +155,7 @@ O arquivo `braco_robotico.scad` reutiliza os modulos de `garra.scad` e adiciona:
 2. Verifique se o circuito usa GND comum entre Arduino e fonte dos servos.
 3. Inicie a simulacao.
 4. Abra o Monitor Serial em `9600 baud`.
-5. Envie os comandos `U`, `D`, `O` e `C` para testar os movimentos.
+5. Envie os comandos `U`, `D`, `O`, `C` e `H` para testar os movimentos.
 6. Para uso fisico, abra `src/braco_robotico.ino` na Arduino IDE e envie o codigo para um Arduino Uno.
 7. Para visualizar ou alterar as pecas, abra os arquivos `.scad` no OpenSCAD.
 8. Para exportar novos STLs, renderize com `F6` e use `File > Export > Export as STL`.
