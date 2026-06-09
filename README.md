@@ -113,6 +113,8 @@ Abra o Monitor Serial em `9600 baud`, envie um caractere e pressione Enter.
 | `O` | Abre a garra | Servo 2 |
 | `C` | Fecha a garra | Servo 2 |
 | `H` | Volta as garras a posição inicial | Servo 1 e 2 |
+
+
 Comportamento do LED:
 
 - LED aceso: garra fechada, representando amostra capturada.
